@@ -7,19 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820BB2692A29AD24003DCA04 /* UsuarioExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2682A29AD24003DCA04 /* UsuarioExtra.swift */; };
+		820BB26B2A29B07B003DCA04 /* TareaExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB26A2A29B07B003DCA04 /* TareaExtra.swift */; };
+		820BB2702A29B235003DCA04 /* CuentaInsertDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB26F2A29B235003DCA04 /* CuentaInsertDTO.swift */; };
+		820BB2732A29B3A6003DCA04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2722A29B3A6003DCA04 /* LoginViewController.swift */; };
+		820BB2752A29B480003DCA04 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2742A29B480003DCA04 /* RegistroViewController.swift */; };
+		820BB2772A29B4A4003DCA04 /* NuevaTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2762A29B4A4003DCA04 /* NuevaTareaViewController.swift */; };
+		820BB2792A29B4B0003DCA04 /* DatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2782A29B4B0003DCA04 /* DatosViewController.swift */; };
+		820BB27B2A29B4F5003DCA04 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB27A2A29B4F5003DCA04 /* CalendarViewController.swift */; };
+		820BB27D2A29B549003DCA04 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB27C2A29B549003DCA04 /* MenuViewController.swift */; };
+		820BB27F2A29B59F003DCA04 /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820BB27E2A29B59F003DCA04 /* CalendarioViewController.swift */; };
+		820BB2822A29C4FA003DCA04 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 820BB2802A29C4FA003DCA04 /* DataModel.xcdatamodeld */; };
 		8219EE202A2462FE0080C71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE1F2A2462FE0080C71B /* AppDelegate.swift */; };
 		8219EE222A2462FE0080C71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE212A2462FE0080C71B /* SceneDelegate.swift */; };
 		8219EE242A2462FE0080C71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE232A2462FE0080C71B /* ViewController.swift */; };
 		8219EE272A2462FE0080C71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8219EE252A2462FE0080C71B /* Main.storyboard */; };
-		8219EE2A2A2462FE0080C71B /* NotasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE282A2462FE0080C71B /* NotasApp.xcdatamodeld */; };
 		8219EE2C2A2462FF0080C71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8219EE2B2A2462FF0080C71B /* Assets.xcassets */; };
 		8219EE2F2A2462FF0080C71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8219EE2D2A2462FF0080C71B /* LaunchScreen.storyboard */; };
 		8219EE3A2A2463000080C71B /* NotasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE392A2463000080C71B /* NotasAppTests.swift */; };
 		8219EE442A2463000080C71B /* NotasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE432A2463000080C71B /* NotasAppUITests.swift */; };
 		8219EE462A2463000080C71B /* NotasAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE452A2463000080C71B /* NotasAppUITestsLaunchTests.swift */; };
-		8219EE562A2464120080C71B /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE552A2464120080C71B /* Nota.swift */; };
-		8219EE582A246BB00080C71B /* NotasRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE572A246BB00080C71B /* NotasRepository.swift */; };
 		8219EE5A2A246BBE0080C71B /* NotasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219EE592A246BBE0080C71B /* NotasService.swift */; };
+		826AF50E2A2AE4AB00705257 /* CategoriaExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AF50D2A2AE4AB00705257 /* CategoriaExtra.swift */; };
+		826AF5302A2AF93F00705257 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AF52F2A2AF93F00705257 /* CoreDataManager.swift */; };
+		82F103B62A2B6F19009F9892 /* Categoria+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103AE2A2B6F19009F9892 /* Categoria+CoreDataClass.swift */; };
+		82F103B72A2B6F19009F9892 /* Categoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103AF2A2B6F19009F9892 /* Categoria+CoreDataProperties.swift */; };
+		82F103B82A2B6F19009F9892 /* Cuenta+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B02A2B6F19009F9892 /* Cuenta+CoreDataClass.swift */; };
+		82F103B92A2B6F19009F9892 /* Cuenta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B12A2B6F19009F9892 /* Cuenta+CoreDataProperties.swift */; };
+		82F103BA2A2B6F19009F9892 /* Usuario+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B22A2B6F19009F9892 /* Usuario+CoreDataClass.swift */; };
+		82F103BB2A2B6F19009F9892 /* Usuario+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B32A2B6F19009F9892 /* Usuario+CoreDataProperties.swift */; };
+		82F103BC2A2B6F19009F9892 /* Tarea+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B42A2B6F19009F9892 /* Tarea+CoreDataClass.swift */; };
+		82F103BD2A2B6F19009F9892 /* Tarea+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103B52A2B6F19009F9892 /* Tarea+CoreDataProperties.swift */; };
+		82F103BF2A2BA16C009F9892 /* CuentaDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F103BE2A2BA16C009F9892 /* CuentaDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +59,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820BB2682A29AD24003DCA04 /* UsuarioExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioExtra.swift; sourceTree = "<group>"; };
+		820BB26A2A29B07B003DCA04 /* TareaExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaExtra.swift; sourceTree = "<group>"; };
+		820BB26F2A29B235003DCA04 /* CuentaInsertDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaInsertDTO.swift; sourceTree = "<group>"; };
+		820BB2722A29B3A6003DCA04 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		820BB2742A29B480003DCA04 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		820BB2762A29B4A4003DCA04 /* NuevaTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaTareaViewController.swift; sourceTree = "<group>"; };
+		820BB2782A29B4B0003DCA04 /* DatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosViewController.swift; sourceTree = "<group>"; };
+		820BB27A2A29B4F5003DCA04 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		820BB27C2A29B549003DCA04 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		820BB27E2A29B59F003DCA04 /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
+		820BB2812A29C4FA003DCA04 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		8219EE1C2A2462FE0080C71B /* NotasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8219EE1F2A2462FE0080C71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8219EE212A2462FE0080C71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8219EE232A2462FE0080C71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8219EE262A2462FE0080C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8219EE292A2462FE0080C71B /* NotasApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotasApp.xcdatamodel; sourceTree = "<group>"; };
 		8219EE2B2A2462FF0080C71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8219EE2E2A2462FF0080C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8219EE302A2462FF0080C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,9 +83,18 @@
 		8219EE3F2A2463000080C71B /* NotasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8219EE432A2463000080C71B /* NotasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasAppUITests.swift; sourceTree = "<group>"; };
 		8219EE452A2463000080C71B /* NotasAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8219EE552A2464120080C71B /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
-		8219EE572A246BB00080C71B /* NotasRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasRepository.swift; sourceTree = "<group>"; };
 		8219EE592A246BBE0080C71B /* NotasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasService.swift; sourceTree = "<group>"; };
+		826AF50D2A2AE4AB00705257 /* CategoriaExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaExtra.swift; sourceTree = "<group>"; };
+		826AF52F2A2AF93F00705257 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		82F103AE2A2B6F19009F9892 /* Categoria+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataClass.swift"; sourceTree = "<group>"; };
+		82F103AF2A2B6F19009F9892 /* Categoria+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		82F103B02A2B6F19009F9892 /* Cuenta+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cuenta+CoreDataClass.swift"; sourceTree = "<group>"; };
+		82F103B12A2B6F19009F9892 /* Cuenta+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cuenta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		82F103B22A2B6F19009F9892 /* Usuario+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataClass.swift"; sourceTree = "<group>"; };
+		82F103B32A2B6F19009F9892 /* Usuario+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		82F103B42A2B6F19009F9892 /* Tarea+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataClass.swift"; sourceTree = "<group>"; };
+		82F103B52A2B6F19009F9892 /* Tarea+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		82F103BE2A2BA16C009F9892 /* CuentaDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +122,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820BB2712A29B356003DCA04 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8219EE232A2462FE0080C71B /* ViewController.swift */,
+				820BB2722A29B3A6003DCA04 /* LoginViewController.swift */,
+				820BB2742A29B480003DCA04 /* RegistroViewController.swift */,
+				820BB2762A29B4A4003DCA04 /* NuevaTareaViewController.swift */,
+				820BB2782A29B4B0003DCA04 /* DatosViewController.swift */,
+				820BB27A2A29B4F5003DCA04 /* CalendarViewController.swift */,
+				820BB27C2A29B549003DCA04 /* MenuViewController.swift */,
+				820BB27E2A29B59F003DCA04 /* CalendarioViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		8219EE132A2462FE0080C71B = {
 			isa = PBXGroup;
 			children = (
@@ -107,17 +160,17 @@
 		8219EE1E2A2462FE0080C71B /* NotasApp */ = {
 			isa = PBXGroup;
 			children = (
+				820BB2712A29B356003DCA04 /* view */,
 				8219EE542A2463770080C71B /* data */,
 				8219EE532A2463690080C71B /* service */,
-				8219EE522A2463580080C71B /* model */,
+				8219EE522A2463580080C71B /*  dtos */,
 				8219EE1F2A2462FE0080C71B /* AppDelegate.swift */,
 				8219EE212A2462FE0080C71B /* SceneDelegate.swift */,
-				8219EE232A2462FE0080C71B /* ViewController.swift */,
 				8219EE252A2462FE0080C71B /* Main.storyboard */,
 				8219EE2B2A2462FF0080C71B /* Assets.xcassets */,
 				8219EE2D2A2462FF0080C71B /* LaunchScreen.storyboard */,
 				8219EE302A2462FF0080C71B /* Info.plist */,
-				8219EE282A2462FE0080C71B /* NotasApp.xcdatamodeld */,
+				820BB2802A29C4FA003DCA04 /* DataModel.xcdatamodeld */,
 			);
 			path = NotasApp;
 			sourceTree = "<group>";
@@ -139,12 +192,16 @@
 			path = NotasAppUITests;
 			sourceTree = "<group>";
 		};
-		8219EE522A2463580080C71B /* model */ = {
+		8219EE522A2463580080C71B /*  dtos */ = {
 			isa = PBXGroup;
 			children = (
-				8219EE552A2464120080C71B /* Nota.swift */,
+				820BB2682A29AD24003DCA04 /* UsuarioExtra.swift */,
+				820BB26A2A29B07B003DCA04 /* TareaExtra.swift */,
+				820BB26F2A29B235003DCA04 /* CuentaInsertDTO.swift */,
+				826AF50D2A2AE4AB00705257 /* CategoriaExtra.swift */,
+				82F103BE2A2BA16C009F9892 /* CuentaDTO.swift */,
 			);
-			path = model;
+			path = " dtos";
 			sourceTree = "<group>";
 		};
 		8219EE532A2463690080C71B /* service */ = {
@@ -158,9 +215,49 @@
 		8219EE542A2463770080C71B /* data */ = {
 			isa = PBXGroup;
 			children = (
-				8219EE572A246BB00080C71B /* NotasRepository.swift */,
+				826AF5342A2AF95B00705257 /* Cuenta */,
+				826AF5332A2AF94F00705257 /* Tarea */,
+				826AF5322A2AF94A00705257 /* Categoria */,
+				826AF5312A2AF94400705257 /* Usuario */,
+				826AF52F2A2AF93F00705257 /* CoreDataManager.swift */,
 			);
 			path = data;
+			sourceTree = "<group>";
+		};
+		826AF5312A2AF94400705257 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				82F103B22A2B6F19009F9892 /* Usuario+CoreDataClass.swift */,
+				82F103B32A2B6F19009F9892 /* Usuario+CoreDataProperties.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		826AF5322A2AF94A00705257 /* Categoria */ = {
+			isa = PBXGroup;
+			children = (
+				82F103AE2A2B6F19009F9892 /* Categoria+CoreDataClass.swift */,
+				82F103AF2A2B6F19009F9892 /* Categoria+CoreDataProperties.swift */,
+			);
+			path = Categoria;
+			sourceTree = "<group>";
+		};
+		826AF5332A2AF94F00705257 /* Tarea */ = {
+			isa = PBXGroup;
+			children = (
+				82F103B42A2B6F19009F9892 /* Tarea+CoreDataClass.swift */,
+				82F103B52A2B6F19009F9892 /* Tarea+CoreDataProperties.swift */,
+			);
+			path = Tarea;
+			sourceTree = "<group>";
+		};
+		826AF5342A2AF95B00705257 /* Cuenta */ = {
+			isa = PBXGroup;
+			children = (
+				82F103B02A2B6F19009F9892 /* Cuenta+CoreDataClass.swift */,
+				82F103B12A2B6F19009F9892 /* Cuenta+CoreDataProperties.swift */,
+			);
+			path = Cuenta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,13 +391,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8219EE562A2464120080C71B /* Nota.swift in Sources */,
+				820BB27B2A29B4F5003DCA04 /* CalendarViewController.swift in Sources */,
+				82F103B62A2B6F19009F9892 /* Categoria+CoreDataClass.swift in Sources */,
+				820BB2692A29AD24003DCA04 /* UsuarioExtra.swift in Sources */,
+				820BB27F2A29B59F003DCA04 /* CalendarioViewController.swift in Sources */,
+				82F103BD2A2B6F19009F9892 /* Tarea+CoreDataProperties.swift in Sources */,
+				820BB2752A29B480003DCA04 /* RegistroViewController.swift in Sources */,
+				82F103B82A2B6F19009F9892 /* Cuenta+CoreDataClass.swift in Sources */,
+				820BB2822A29C4FA003DCA04 /* DataModel.xcdatamodeld in Sources */,
+				820BB2772A29B4A4003DCA04 /* NuevaTareaViewController.swift in Sources */,
 				8219EE242A2462FE0080C71B /* ViewController.swift in Sources */,
 				8219EE202A2462FE0080C71B /* AppDelegate.swift in Sources */,
+				82F103BA2A2B6F19009F9892 /* Usuario+CoreDataClass.swift in Sources */,
+				826AF50E2A2AE4AB00705257 /* CategoriaExtra.swift in Sources */,
+				820BB26B2A29B07B003DCA04 /* TareaExtra.swift in Sources */,
+				82F103BC2A2B6F19009F9892 /* Tarea+CoreDataClass.swift in Sources */,
+				82F103BF2A2BA16C009F9892 /* CuentaDTO.swift in Sources */,
+				820BB27D2A29B549003DCA04 /* MenuViewController.swift in Sources */,
+				82F103BB2A2B6F19009F9892 /* Usuario+CoreDataProperties.swift in Sources */,
 				8219EE222A2462FE0080C71B /* SceneDelegate.swift in Sources */,
-				8219EE2A2A2462FE0080C71B /* NotasApp.xcdatamodeld in Sources */,
+				826AF5302A2AF93F00705257 /* CoreDataManager.swift in Sources */,
+				82F103B72A2B6F19009F9892 /* Categoria+CoreDataProperties.swift in Sources */,
+				820BB2702A29B235003DCA04 /* CuentaInsertDTO.swift in Sources */,
 				8219EE5A2A246BBE0080C71B /* NotasService.swift in Sources */,
-				8219EE582A246BB00080C71B /* NotasRepository.swift in Sources */,
+				82F103B92A2B6F19009F9892 /* Cuenta+CoreDataProperties.swift in Sources */,
+				820BB2792A29B4B0003DCA04 /* DatosViewController.swift in Sources */,
+				820BB2732A29B3A6003DCA04 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,13 +754,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8219EE282A2462FE0080C71B /* NotasApp.xcdatamodeld */ = {
+		820BB2802A29C4FA003DCA04 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8219EE292A2462FE0080C71B /* NotasApp.xcdatamodel */,
+				820BB2812A29C4FA003DCA04 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 8219EE292A2462FE0080C71B /* NotasApp.xcdatamodel */;
-			path = NotasApp.xcdatamodeld;
+			currentVersion = 820BB2812A29C4FA003DCA04 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

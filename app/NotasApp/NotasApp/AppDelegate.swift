@@ -12,11 +12,32 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        CoreDataManager.shared.load{
+            print("Se completo ")
+            print("Se completo ")
+        }
+        
+        verifyIsLogged()
         // Override point for customization after application launch.
         return true
     }
+    
+    func verifyIsLogged(){
+        if UserDefaults.standard.value(forKey: "username") != nil {
+            let viewController = UIStoryboard(name: "main", bundle: Bundle.main).instantiateViewController(withIdentifier: "MenuViewController")
+            let navViewController = UINavigationController(rootViewController: viewController)
+            
+            let share = UIApplication.shared.delegate as? SceneDelegate
+            share?.window?.rootViewController = navViewController
+            share?.window?.makeKeyAndVisible()
+            
+        }
+    }
+    
 
     // MARK: UISceneSession Lifecycle
 
